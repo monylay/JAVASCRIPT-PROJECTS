@@ -3,6 +3,6 @@ function changeText() {
     var str2 = "This is a test2";
     var element = document.getElementById("myStrings");
 
-    element.textContent = str1 + "" + str2;
+    element.innerHTML = str1 + "<br>" + str2;
 
 }
