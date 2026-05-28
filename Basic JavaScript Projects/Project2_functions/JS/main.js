@@ -6,3 +6,9 @@ function changeText() {
     element.innerHTML = str1 + "<br>" + str2;
 
 }
+
+function Testing() { //testing using the += operator
+    var sentence = "I am learning JavaScript,";
+    sentence +=" trying to get use to coding in JavaScript.";
+    document.getElementById("Click").innerHTML = sentence;
+}
