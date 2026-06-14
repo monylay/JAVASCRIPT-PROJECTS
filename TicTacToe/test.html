@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <p id="displayCar"></p>
+        <script>
+            myFunction = function() {
+                return "This is my function";
+            }
+
+            var car;
+            car = (val) => "These are my favorite car brands: " + val;
+            document.getElementById('displayCar').innerHTML = car("Toyota, Ford, and Nissan");
+        </script>
+    </body>
+</html>
