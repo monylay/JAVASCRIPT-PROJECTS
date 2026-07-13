@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+    <head>
+        <script src="main.js" defer></script>
+    </head>
+    <body>
+        <h1>Generate a Random Joke</h1>
+        <button onclick ="getRandomJoke()">Display a Joke!</button>
+        <p id="jokeDisplay"></p>
+        <p ondblclick="myFunction()">Double click me</p>
+        <p id="test"></p>
+
+        <script>
+            function myFunction() {
+                document.getElementById("test").innerHTML += "<span style='color:red;'>Why you double clicking me?</span> ";
+            }
+        </script>
+    </body>
+</html>
